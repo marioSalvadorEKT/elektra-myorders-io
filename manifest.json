@@ -1,0 +1,26 @@
+{
+  "vendor": "vtex",
+  "name": "my-orders-app",
+  "version": "2.12.0",
+  "title": "My Orders",
+  "description": "My orders page powered by Render",
+  "builders": {
+    "messages": "1.x",
+    "react": "2.x",
+    "pages": "0.x",
+    "node": "4.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "8.x",
+    "vtex.my-account-commons": "0.x",
+    "vtex.address-form": "3.x",
+    "vtex.totalizer-translator": "1.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "scripts": {
+    "postreleasy": "vtex publish -p"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

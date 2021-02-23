@@ -1,0 +1,10 @@
+{
+  "stack": "nodejs",
+  "memory": 128,
+  "routes": {
+    "enabled": {
+      "path": "/_v/myorders/enabled",
+      "public": true
+    }
+  }
+}
